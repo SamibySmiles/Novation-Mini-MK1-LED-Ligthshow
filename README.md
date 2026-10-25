@@ -9,6 +9,8 @@ Powershell script does currently have 4 sequences built-in across the 8x8 grid i
 
 The additional row and column lights on the edge are just set to move a set of colours along.
 
+Place the files into a folder called "Lightshow" at the root of C:\ for .bat to locate PS1 file correctly, otherwise update .ps1 location in .bat. I have the path hardcoded for launch environment to ensure ps1 launches as startup task by SYSTEM user.
+
 Launching the .bat script to run the .PS1 script in a bypassed environment, this can be launched manually or as a startup task in task schedular/startup apps using SYSTEM user.
 
 When the controller is required, the powershell script will need stopping, by either stopping the service or simply unplugging and plugging the USB controller back in.
